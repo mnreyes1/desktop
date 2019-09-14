@@ -1,3 +1,4 @@
+cd ~/
 cd Arqui/Syllabus
 git pull
 cd ..

@@ -129,7 +129,8 @@ echo ""
 echo ""
 echo ""
 cd ~
-cp ~/Repos/desktop/pull_repos.sh ~/pull_repos.sh
+mkdir .bash_scripts
+cp ~/Repos/desktop/pull_repos.sh ~/.bash_scripts/pull_repos.sh
 sudo chmod u+x pull_repos.sh
 echo "[COPYING NETRC TO GIT]"
 cp ~/Repos/desktop/.netrc ~/.netrc
