@@ -17,8 +17,7 @@ change to directory and clone this repo
 
 ## Manjaro
 
-	sudo chmod u+x desktopManjaro.sh
-	./dekstopManjaro.sh
+	nothing yet
 
 
 # How to use i3
