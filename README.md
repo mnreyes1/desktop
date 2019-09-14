@@ -80,8 +80,7 @@ workspace
 
 ## resize mode
 
-`arrow`: resize in that direction
-
+`arrow`: resize in that direction \\
 `return`: exit resize mode
 
 ## exit mode
