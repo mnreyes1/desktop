@@ -74,12 +74,13 @@ If you don't want to put username and password everytime you push a repo, edit t
 `g<other>`: go to <other> directory\
 `subl`: open with sublime\
 `tex`: open with texmaker\
-`dd`: cut selected files\
-`yy`: copy selected files\
-`dD`: delete selected files\
-`pp`: paste copied/cuted files\
 `ess`: execute bash script *save_scripts.sh* (push desktop repo)\
 `escf`: execute bash script *save_config_files.sh*\
 `elcf`: execute bash script *load_config_files.sh*\
 `epr`: execute bash script *pull_repos.sh*\
-`e<other>`: execute bash script *other*
+`e<other>`: execute bash script *other*\
+`yy`: copy selected files\
+`dd`: cut selected files\
+`pp`: paste copied/cuted files\
+`dD`: delete selected files\
+`zh`: see hidden files
