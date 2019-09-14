@@ -15,6 +15,8 @@ change to directory and clone this repo
 	sudo chmod u+x desktopUbuntu.sh
 	./desktopUbuntu.sh
 
+If you don't want to put username and password everytime you push a repo, edit the *.netrc* file
+
 ## Manjaro
 
 	nothing yet
