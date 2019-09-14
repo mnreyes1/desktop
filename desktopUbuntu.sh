@@ -131,12 +131,12 @@ cd ~/
 mkdir .bash_scripts
 cd ~/Repos/desktop/bash_scripts
 for file in *; do
-  echo "(bash scripts) loading $file"
+  echo "[BASH SCRIPTS] loading $file"
   cp "$file" ~/.bash_scripts/"$file"
 done
 cd ~/.bash_scripts
 for file in *; do
-  echo "(bash scripts) giving permissions to $file"
+  echo "[BASH SCRIPTS] giving permissions to $file"
   sudo chmod u+x "$file"
 done
 echo ""
