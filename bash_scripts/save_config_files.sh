@@ -8,5 +8,6 @@ for file in *; do
 done
 cd ~/Repos/i3
 git add --all
+git status
 git commit -m 'saved config files'
 git push
