@@ -81,4 +81,4 @@ change to directory and clone this repo
 `escf`: execute bash script *save_config_files.sh*\
 `elcf`: execute bash script *load_config_files.sh*\
 `epr`: execute bash script *pull_repos.sh*\
-`e<other>`: execute bash script *other*\
+`e<other>`: execute bash script *other*
