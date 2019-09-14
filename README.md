@@ -62,4 +62,23 @@ change to directory and clone this repo
 `r`: reboot
 
 
+# How to use ranger
 
+`gh`: go to home directory\
+`grt`: go to root directory\
+`gre`: go to repos directory\
+`gcr`: go to ranger config directory\
+`gci`: go to i3 config directory\
+`gbs`: go to bash scripts directory\
+`g<other>`: go to <other> directory\
+`subl`: open with sublime\
+`tex`: open with texmaker\
+`dd`: cut selected files\
+`yy`: copy selected files\
+`dD`: delete selected files\
+`pp`: paste copied/cuted files\
+`ess`: execute bash script *save_scripts.sh* (push desktop repo)\
+`escf`: execute bash script *save_config_files.sh*\
+`elcf`: execute bash script *load_config_files.sh*\
+`epr`: execute bash script *pull_repos.sh*\
+`e<other>`: execute bash script *other*\
