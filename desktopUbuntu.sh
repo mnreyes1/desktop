@@ -142,8 +142,9 @@ done
 echo ""
 echo ""
 echo ""
-echo "[COPYING NETRC TO GIT]"
+echo "[COPYING NETRC & EDITOR SELECTOR]"
 cp ~/Repos/desktop/.netrc ~/.netrc
+cp ~/Repos/desktop/.selected_editor ~/.selected_editor
 # you have to edit this files later and install the following
 ## light to change screen brightness (first download the release)
 # tar xf light-x.yy.tar.gz
