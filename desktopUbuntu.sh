@@ -109,6 +109,11 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-text
 echo ""
+echo "[INSTALLING TEXMAKER]"
+echo ""
+sudo apt-get install texlive-full
+sudo apt-get install texmaker
+echo ""
 echo ""
 echo ""
 
