@@ -34,8 +34,7 @@ echo "[CLONING REPOS]"
 echo ""
 echo ""
 echo ""
-mkdir Repos
-cd Repos
+cd ~/Repos
 mkdir IngSoftware
 mkdir BasesGatos
 mkdir TeoriaAutomatas
@@ -117,21 +116,32 @@ echo "[LOADING CONFIG FILES]"
 echo ""
 echo ""
 echo ""
-cd Repos/i3
+cd ~/Repos/i3
 cp -a i3-starterpack/. ~
 sudo chmod u+x save_config_files.sh
 sudo chmod u+x load_config_files.sh
 ./load_config_files.sh
 echo ""
 echo ""
-echo "[CLONING PULL REPOS SCRIPT]"
+echo "[CLONING SCRIPTS]"
 echo ""
 echo ""
 echo ""
-cd ~
+cd ~/
 mkdir .bash_scripts
-cp ~/Repos/desktop/pull_repos.sh ~/.bash_scripts/pull_repos.sh
-sudo chmod u+x pull_repos.sh
+cd ~/Repos/desktop/bash_scripts
+for file in *; do
+  echo "(bash scripts) loading $file"
+  cp "$file" ~/.bash_scripts/"$file"
+done
+cd ~/.bash_scripts
+for file in *; do
+  echo "(bash scripts) giving permissions to $file"
+  sudo chmod u+x "$file"
+done
+echo ""
+echo ""
+echo ""
 echo "[COPYING NETRC TO GIT]"
 cp ~/Repos/desktop/.netrc ~/.netrc
 # you have to edit this files later and install the following
