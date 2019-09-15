@@ -112,7 +112,7 @@ sudo apt-get install sublime-text
 #echo "[INSTALLING TEXMAKER]"
 #echo ""
 #sudo apt-get install texlive-full
-#sudo apt-get install texmaker
+#s
 echo ""
 echo ""
 echo ""
@@ -123,6 +123,7 @@ echo ""
 echo ""
 cd ~/Repos/i3
 cp -a i3-starterpack/. ~
+mkdir ~/.config/ranger
 sudo chmod u+x save_config_files.sh
 sudo chmod u+x load_config_files.sh
 ./load_config_files.sh
@@ -152,6 +153,7 @@ cp ~/Repos/desktop/.netrc ~/.netrc
 cp ~/Repos/desktop/.selected_editor ~/.selected_editor
 # you have to edit this files later and install the following
 ## light to change screen brightness (first download the release)
+## https://github.com/haikarainen/light/releases
 # tar xf light-x.yy.tar.gz
 # cd light-x.yy/
 # ./configure && make
