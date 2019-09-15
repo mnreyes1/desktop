@@ -94,6 +94,10 @@ echo "[INSTALLING RANGER]"
 echo ""
 sudo apt install ranger
 echo ""
+echo "[INSTALLING SSHPASS]"
+echo ""
+sudo apt install sshpass
+echo ""
 echo "[INSTALLING NETWORK MANAGER]"
 echo ""
 sudo apt install network-manager
