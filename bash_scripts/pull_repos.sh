@@ -1,5 +1,5 @@
 cd ~/
-cd Arqui/Syllabus
+cd Repos/Arqui/Syllabus
 git pull
 cd ..
 cd ..
