@@ -26,3 +26,6 @@ cd ..
 cd ..
 cd i3
 git pull
+cd ..
+cd desktop
+git pull
