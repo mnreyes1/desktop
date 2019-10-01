@@ -10,16 +10,13 @@ change to directory and clone this repo
 	git clone https://github.com/mnreyes1/desktop
 	cd desktop
 
-## Ubuntu
+## Manjaro
 
-	sudo chmod u+x desktopUbuntu.sh
-	./desktopUbuntu.sh
+	sudo chmod u+x configureDesktop.sh
+	./configureDesktop.sh
 
 If you don't want to put username and password everytime you push a repo, edit the *.netrc* file
 
-## Manjaro
-
-	nothing yet
 
 
 # How to use i3
@@ -30,12 +27,8 @@ If you don't want to put username and password everytime you push a repo, edit t
 `mod+shift+w`: change wallpaper\
 `mod+w`: open web browser\
 `mod+e`: open vscode\
-`mod+a`: open audio manager\
 `mod+t`: open texmaker\
-`mod+p`: open program launcher\
-`mod+shift+p`: open another program launcher\
-`mod+i`: open network manager\
-`mod+shift+i`: open another network manager\
+`mod+p`: open standar file manager\
 `mod+arrow`: change focus in that direction\
 `mod+shift+arrow`: move focused window in that direction\
 `mod+number`: switch to workspace *number* \
@@ -46,22 +39,12 @@ If you don't want to put username and password everytime you push a repo, edit t
 `mod+v`: split in vertical orientation\
 `mod+f`: fullscreen\
 `mod+s`: change container layout split\
-`mod+space`: change tiling/floating windows\
-`mod+shift+space`: change focus tiling/floating windows\
+`mod+shift+space`: change tiling/floating windows\
+`mod+space`: change focus tiling/floating windows\
 `mod+shift+r`: restart i3\
+`mod+shift+c`: reload configs\
 `mod+r`: resize mode\
 `mod+0`: exit mode\
-
-## resize mode
-
-`arrow`: resize in that direction\
-`return`: exit resize mode
-
-## exit mode
-
-`s`: shutdown\
-`r`: reboot
-
 
 # How to use ranger
 
