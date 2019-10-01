@@ -1,6 +1,6 @@
 cd ~/
 echo "(i3) saving config"
-cp ~/.config/i3/config ~/Repos/i3/i3_conf/config
+cp ~/.i3/config ~/Repos/i3/i3_conf/config
 cd ~/.config/ranger/
 for file in *; do
   echo "(ranger) copying $file"
