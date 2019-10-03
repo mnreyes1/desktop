@@ -2,6 +2,9 @@ cd ~/
 cd Repos/Arqui/Syllabus
 git pull
 cd ..
+cd proyecto-entrega-2-grupo-15
+git pull
+cd ..
 cd ..
 cd BasesGatos/basesdegatos
 git pull
