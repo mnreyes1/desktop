@@ -11,11 +11,11 @@ cd
 
 echo "[INSTALLING RANGER]"
 echo ""
-sudo apt install ranger
+sudo pacman -S ranger
 echo ""
 echo "[INSTALLING SSHPASS]"
 echo ""
-sudo apt install sshpass
+sudo pacman -S sshpass
 echo ""
 
 
