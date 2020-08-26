@@ -10,8 +10,10 @@ change to directory and clone this repo
 	git clone https://github.com/mnreyes1/desktop
 	cd desktop
 
-## Ubuntu
+## Manjaro
 
+	sudo chmod u+x installPrograms.sh
+	./installPrograms.sh
 	sudo chmod u+x configureDesktop.sh
 	./configureDesktop.sh
 

@@ -9,15 +9,6 @@ echo ""
 echo ""
 cd
 
-echo "[INSTALLING RANGER]"
-echo ""
-sudo pacman -S ranger
-echo ""
-echo "[INSTALLING SSHPASS]"
-echo ""
-sudo pacman -S sshpass
-echo ""
-
 
 echo "[CLONING SCRIPTS]"
 echo ""
@@ -46,4 +37,6 @@ echo ""
 echo ""
 echo "[COPYING NETRC]"
 cp ~/Repos/desktop/.netrc ~/.netrc
+echo "[COPYING WALLPAPERS]"
+cp ~/Repos/i3/i3-starterpack/wallpapers ~/wallpapers
 # you have to edit this files later
