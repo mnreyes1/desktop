@@ -3,33 +3,6 @@ echo ""
 echo ""
 echo ""
 cd ~/Repos
-mkdir IngSoftware
-mkdir BasesGatos
-mkdir TeoriaAutomatas
-mkdir Arqui
-cd TeoriaAutomatas/
-git clone https://github.com/PUC-IIC2223/IIC2223-reyes
-git clone https://github.com/PUC-IIC2223/syllabus
-echo ""
-echo ""
-cd ..
-cd BasesGatos/
-git clone https://github.com/IIC2413/Syllabus-2019-2
-git clone https://github.com/mnreyes1/basesdegatos
-echo ""
-echo ""
-cd ..
-cd Arqui/
-git clone https://github.com/IIC2343/Syllabus
-echo ""
-echo ""
-cd ..
-cd IngSoftware/
-git clone https://github.com/IIC2143-2019-2/proyecto
-git clone https://github.com/IIC2143-2019-2/Grupo19-proyecto
-echo ""
-echo ""
-cd ..
 git clone https://github.com/mnreyes1/i3
 echo ""
 echo ""
