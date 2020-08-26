@@ -38,5 +38,5 @@ echo ""
 echo "[COPYING NETRC]"
 cp ~/Repos/desktop/.netrc ~/.netrc
 echo "[COPYING WALLPAPERS]"
-cp ~/Repos/i3/i3-starterpack/wallpapers ~/wallpapers
+cp -r ~/Repos/i3/i3-starterpack/wallpapers ~/wallpapers
 # you have to edit this files later
